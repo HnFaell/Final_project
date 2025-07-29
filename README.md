@@ -1,5 +1,7 @@
 # 🎭 Multi-Role AI Assistant
 
+<img width="1920" height="920" alt="Screenshot from 2025-07-30 06-17-46" src="https://github.com/user-attachments/assets/381b1208-8027-47c8-976e-79acf77790f4" />
+
 ## 📝 Deskripsi
 
 **Multi-Role AI Assistant** adalah aplikasi chat AI yang interaktif dan modern dengan 3 role AI yang berbeda. Aplikasi ini dibangun menggunakan Streamlit dengan antarmuka yang elegan, animasi menarik, dan fitur-fitur canggih untuk pengalaman pengguna yang luar biasa.
@@ -40,7 +42,7 @@
 
 ### 1. Clone atau Download File
 ```bash
-# Download final_project.py ke folder proyek Anda
+gh repo clone HnFaell/Final_project
 ```
 
 ### 2. Install Dependencies
@@ -151,24 +153,6 @@ final_project.py
 - **Error**: `#e74c3c` (Red)
 - **White/Gray**: Clean contrast colors
 
-## 🔧 Kustomisasi
-
-### **Menambah Role Baru**
-1. Edit fungsi `get_role_configs()`
-2. Tambah konfigurasi role baru dengan icon, warna, dan system message
-3. Sesuaikan default temperature dan max_tokens
-4. Tambah sample questions
-
-### **Menambah Model AI**
-1. Edit fungsi `get_available_models()`
-2. Tambah model baru dengan format: `"model_id": "Display Name"`
-3. Kategorikan sebagai gratis (🆓) atau premium (💰)
-
-### **Menyesuaikan Animasi**
-1. Edit CSS di fungsi `configure_page()`
-2. Sesuaikan duration, timing, dan easing functions
-3. Tambah @keyframes baru untuk animasi custom
-
 ## 🚨 Troubleshooting
 
 ### **Error 402 - Payment Required**
@@ -191,6 +175,10 @@ final_project.py
 - Cek browser support untuk CSS animations
 - Disable browser extensions yang memblokir CSS
 
+### **Masalah lainnya**
+- Jawaban AI kadang kemana mana
+- Ketika mau menghapus room, riwayat chat harus di hapus terlebih dahulu
+
 ## 📈 Statistik dan Monitoring
 
 Aplikasi menampilkan statistik real-time:
@@ -207,24 +195,6 @@ Aplikasi menampilkan statistik real-time:
 - **Program**: AI-Python Bootcamp
 - **Teknologi**: Python, Streamlit, OpenRouter API
 - **Fokus**: Multi-role conversational AI dengan modern UX
-
-## 📝 Lisensi
-
-Project ini dibuat untuk tujuan pembelajaran dalam program AI-Python Bootcamp. Silakan gunakan dan modifikasi sesuai kebutuhan pembelajaran Anda.
-
-## 🤝 Kontribusi
-
-Jika Anda ingin berkontribusi atau melaporkan bug:
-1. Fork repository
-2. Buat feature branch
-3. Commit changes
-4. Submit pull request
-
-## 🔗 Links
-
-- **OpenRouter**: [https://openrouter.ai](https://openrouter.ai)
-- **API Documentation**: [https://openrouter.ai/docs](https://openrouter.ai/docs)
-- **Streamlit Docs**: [https://docs.streamlit.io](https://docs.streamlit.io)
 
 ---
 
