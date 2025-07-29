@@ -716,16 +716,6 @@ def render_header():
     role_configs = get_role_configs()
     current_config = role_configs[current_role]
     
-    st.markdown(f"""
-    <div class="animated-bg">
-        <h1 class="typing-animation">🎭 Multi-Role AI Assistant</h1>
-        <p style="font-size: 1.2rem; margin: 1rem 0;">
-            Sedang berbicara dengan <strong>{current_config['name']}</strong>
-        </p>
-        <p style="opacity: 0.9;">Halo {user_name}! Siap untuk petualangan AI yang menakjubkan? ✨</p>
-    </div>
-    """, unsafe_allow_html=True)
-
 def render_welcome_message():
     """Tampilkan pesan selamat datang dengan animasi"""
     if not get_current_messages():
